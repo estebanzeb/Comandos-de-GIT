@@ -1,0 +1,33 @@
+COMANDOS GIT
+
+PWD: Nos muestra el directorio en el que estamos
+CD: Entrar a un directorio
+LS:Nos muetra lo que tiene el archivo
+GIT INIT: Para iniciar en el archivo en el que estamos GIT
+GIT STATUS: Nos permite ver los archivos que estamos usando
+GIT ADD : Sirve para agregar 
+GIT COMMIT: (De pronto pide autenticacion)
+	GIT CONFIG --GLOBAL USER.EMAIL "CORREO"
+	GIT CONFIG --GLOBAL USER.NAME "NOMBRE"
+GIT COMMIT: Primer punto de partida o primera version(Inicio del proyecto) (FOTO)
+	Se abre un editor de codigo 
+	Se la da el mensaje 
+	Se le da enter
+GIT LOG: Muestra las Diferentes versiones de mi proyexto
+GIT CHECKOUT -- NOMBRE DEL ARCHIVO: Volver a la version anterior despues de realizar algun cambio 
+GIT DIFF: Mostrar los cambios que se hicieron en el codigo
+GIT COMMIT -M "COMENTARIO A SU GUSTO": Realizar una version mas rapida
+
+GIT BRANCH: Se visualizan los proyectos existentes
+GIT BRANCH "NOMBRE": Crear una nueva version laternativa
+GIT CHECkOUT "NOMBRE": Para cambiar en este caso de "master" a "login"
+GIT ADD . : Para agregar todos los archivos 
+
+GIT REMOTE ADD ORIGIN https://github.com/estebanzeb/Programaci-n-de-Aplicaciones-M-viles-III.git: Donde se va almecenar el proyecto
+GIT PUSH -U ORIGIN MASTER: Ingresar el proyecto al link del repositorio que se dio con anterioridad
+
+GIT CLONE "LINK DEL PROYECTO": CREAR UNA COPIA DEL PROYECTO
+
+GIT REMOTE -V
+
+CREAR UN ".GITIGNORE" PARA LOS ARCHIVOS QUE QUEERASMOS IGNORAR A LA HORA DE VERSIONAR
