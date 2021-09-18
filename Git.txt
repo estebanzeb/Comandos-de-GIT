@@ -31,3 +31,12 @@ GIT CLONE "LINK DEL PROYECTO": CREAR UNA COPIA DEL PROYECTO
 GIT REMOTE -V
 
 CREAR UN ".GITIGNORE" PARA LOS ARCHIVOS QUE QUEERASMOS IGNORAR A LA HORA DE VERSIONAR
+
+Para saber el usuario
+ git config --global -l
+ 
+Para eliminar
+ git config --global --unset user.email
+ 
+ 
+
