@@ -37,6 +37,8 @@ Para saber el usuario
  
 Para eliminar
  git config --global --unset user.email
- 
+ git config --global --unset user.name
+
+
  
 
